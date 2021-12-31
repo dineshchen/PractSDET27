@@ -72,49 +72,55 @@ public class CreateContactTest extends BaseAnnotationClass{
        	// Assert.assertTrue(status ,"Contact name is not verified==FAIL");
         
 	}
-	
+	/*
 	@Test(groups = {"regressionTest"})
 	public void createConatctWithOrgTest() throws Throwable {	
-		/* get ramDomData */
+		//
+		 * 
+		 *  
+		 *  get ramDomData 
 		int randomNum = jLib.getRandomNumber();
-		 /* read test data from Excel File*/
+		 // read test data from Excel File
 		    String orgName = eLib.getDataFromExcel("contact", 4, 2) + randomNum;
 		    String conactName = eLib.getDataFromExcel("contact", 4, 3) + randomNum;
   
-   /* step 2 :  navigate to Org Page*/ 
+   // step 2 :  navigate to Org Page
         HomePage hp = new HomePage(driver);
         hp.getOrganizationLink().click();     
                 
-   /* step 3 : navigate to create Org page */  
+   // step 3 : navigate to create Org page   
         OrganizationPage op = new OrganizationPage(driver);
         op.getCreateOrganizationIMG();
                
-   /* step 3 : create a new Org */   
+   // step 3 : create a new Org    
         CreateOrganizationPage cop = new CreateOrganizationPage(driver);
         cop.createOrganization(orgName);       
-   /* step 4 : verify */ 
+   // step 4 : verify 
         OrganizationInfoPage oip = new OrganizationInfoPage(driver);
         wLib.waitForElemnetToBeClickAble(driver, oip.getOrganizationInfo());  
         
-         /* step 5 :  navigate to CREATE  Coantct Page*/ 
+         // step 5 :  navigate to CREATE  Coantct Page 
         hp.getContactLink().click();
   
-        /* step 6 :  navigate to CREATE  Contact Page*/ 
+        // step 6 :  navigate to CREATE  Contact Page/ 
         Contacts cp = new Contacts(driver);
         cp.getCreateNewConatctIMG().click();
         
-        /* step 7 : create a new Contact Page */
+        // step 7 : create a new Contact Page 
         CreateNewConatctPage cncp = new CreateNewConatctPage(driver);
         cncp.createNewConatct(conactName, orgName);
         
-        /* step 8 : verify */ 
+        // step 8 : verify 
         ContactsInfoPage cip = new ContactsInfoPage(driver);
-        String  actContactinfo = cip.getContactSucMsg().getText();
-       boolean status =  actContactinfo.contains(conactName);
+        //String  actContactinfo = 
+        		cip.getContactSucMsg().getText();
+      // boolean status =  actContactinfo.contains(conactName);
        	 //Assert.assertTrue(status ,"Contact name is not verified==FAIL");
         
 	}
 
 	
-
+*/
 }
+
+

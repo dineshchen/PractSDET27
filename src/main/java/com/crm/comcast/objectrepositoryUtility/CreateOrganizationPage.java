@@ -20,7 +20,7 @@ public class CreateOrganizationPage extends WebDriverUtility{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(name="accountname")
+	@FindBy(xpath="//input[@name='accountname']")
 	private WebElement organizationNameTF;
 	
 	@FindBy(name="industry")
