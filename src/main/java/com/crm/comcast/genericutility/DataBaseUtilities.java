@@ -26,7 +26,7 @@ public class DataBaseUtilities {
 		
 			driverRef = new Driver();
 			DriverManager.registerDriver(driverRef);
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/projects", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/students_info", "root", "root");
 		
 	
 	}
