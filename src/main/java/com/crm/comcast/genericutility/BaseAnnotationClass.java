@@ -30,7 +30,7 @@ public class BaseAnnotationClass {
     @BeforeSuite(groups = {"smokeTest","regressionTest"})
     public void config_BS() throws Throwable {
     	System.out.println("===================Conntact to DB=================");
-    	dLib.connectToDB();
+    	//dLib.connectToDB();
     }
     
   //  @Parameters("BROWSER")
@@ -91,7 +91,7 @@ public class BaseAnnotationClass {
 	
 	    public void config_AS() throws Throwable {
 	    	System.out.println("===================close DB connaction=================");
-            dLib.closeDb();
+            //dLib.closeDb();
 	    }
     
 }
