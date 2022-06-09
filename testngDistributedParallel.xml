@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+  <test thread-count="4" name="TestRunner-1">
+    <classes>
+      <class name="wednesdayDriveDistributedParallel.DependsOnMethodTest"/>
+      <class name="wednesdayDriveDistributedParallel.PriorityTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestRunner-2">
+  <classes>
+  <class name="wednesdayDriveDistributedParallel.BookTicketTest"/>
+      <class name="wednesdayDriveDistributedParallel.AnnotaionsInTestNGTest"/>
+      <class name="wednesdayDriveDistributedParallel.EnableTest"/>
+      </classes>
+      
+      </test>
+</suite> <!-- Suite -->
