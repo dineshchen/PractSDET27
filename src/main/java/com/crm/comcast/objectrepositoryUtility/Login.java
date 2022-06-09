@@ -17,7 +17,7 @@ public class Login {
 	WebDriver driver;
 	public Login(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);// if pagefactory is not initiaized we get Null pointer exception
 	}
 	
 	

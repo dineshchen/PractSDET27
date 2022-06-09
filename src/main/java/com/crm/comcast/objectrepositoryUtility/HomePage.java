@@ -11,7 +11,7 @@ public class HomePage extends com.crm.comcast.genericutility.WebDriverUtility{
 	WebDriver driver;
 	public HomePage(WebDriver driver) {
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);// if pagefactory is not initiaized we get Null pointer exception
 	}
 	
 	@FindBy(linkText="Organizations")

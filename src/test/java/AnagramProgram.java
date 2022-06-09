@@ -22,6 +22,7 @@ public class AnagramProgram {
 			Arrays.sort(charArray1);
 			Arrays.sort(charArray2);
 			
+			
 //if sorted char arrays are same
 //then string is anagram
 			boolean result=Arrays.equals(charArray1,charArray2);

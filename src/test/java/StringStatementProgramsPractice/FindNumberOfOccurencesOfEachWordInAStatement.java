@@ -8,7 +8,7 @@ public class FindNumberOfOccurencesOfEachWordInAStatement {
 
 //Method 1
 		String s="hello world hello all welcome to TY";
-		String sarr[] = s.split("l");
+		String sarr[] = s.split(" ");
 		
 		System.out.println(sarr.length);
 		

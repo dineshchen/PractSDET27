@@ -1,4 +1,4 @@
-package pactestng_sample;
+package pract_sample;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

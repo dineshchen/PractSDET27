@@ -40,7 +40,7 @@ public class LoopPractice {
         }
         */
 		
-/* div by using getting number from user
+//div by using getting number from user
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int n=s.nextInt();
@@ -57,7 +57,7 @@ public class LoopPractice {
 		else {
 			System.out.println("Good Bye");
 		}
-		*/
+		/*
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int n=s.nextInt();
@@ -70,7 +70,7 @@ public class LoopPractice {
 				}
 			}
 			
-		}
+		}*/
 	}
 
 }
